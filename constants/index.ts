@@ -391,9 +391,9 @@ export const PROPERTYLISTINGDESCRIPTIONS = [
     },
     price: 2500,
     offers: {
-      bed: 4,
-      shower: 2,
-      occupants: 8
+      bed: "4",
+      shower: "2",
+      occupants: "8"
     },
     category: [
       "Mountain view",
@@ -407,7 +407,7 @@ export const PROPERTYLISTINGDESCRIPTIONS = [
       "Kitchen",
       "Wifi"
     ],
-    discount: null,
+    discount: "null",
     description: "Feel like exploring the Dominican? Start the day with a hike on one of Playa Morón's many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddleboarding. When you'Feel like exploring the Dominican? Start the day with a hike on one of Playa Morón's many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddleboarding. When you're ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views.",
     amenities: [
       "BEDROOM & BATHROOM",
@@ -432,9 +432,9 @@ export const PROPERTYLISTINGDESCRIPTIONS = [
     },
     price: 3200,
     offers: {
-      bed: 5,
-      shower: 3,
-      occupants: 10
+      bed: "5",
+      shower: "3",
+      occupants: "10"
     },
     category: [
       "Ocean view",
@@ -446,7 +446,7 @@ export const PROPERTYLISTINGDESCRIPTIONS = [
       "Gym",
       "Spa"
     ],
-    discount: 15,
+    discount: "15",
     description: "Experience luxury at its finest in this stunning oceanfront villa. Wake up to breathtaking ocean views and enjoy private beach access.",
     amenities: [
       "LUXURY AMENITIES",

@@ -51,25 +51,9 @@ export interface PillProps {
   onClick: () => void;
 }
 
-export interface PropertyDescProps {
+export interface PropertyDescProps extends PropertyProps {
   id: number;
-  name: string;
-  image: string;
-  rating: number;
   reviewCount: number;
-  address: {
-    state?: string;
-    city: string;
-    country: string;
-  };
-  price: number;
-  offers: {
-    bed: number;
-    shower: number;
-    occupants: number;
-  };
-  category: string[];
-  discount?: number | null;
   description: string;
   amenities: string[];
   images: string[];

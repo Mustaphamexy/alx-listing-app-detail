@@ -378,6 +378,132 @@ export const FILTER_OPTIONS = [
   "Instant Book"
 ];
 
+export const PROPERTYLISTINGDESCRIPTIONS = [
+  {
+    id: 1,
+    name: "Villa Arrecife Beach House",
+    image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    rating: 4.76,
+    reviewCount: 345,
+    address: {
+      city: "Sidemen, Bali",
+      country: "Indonesia"
+    },
+    price: 2500,
+    offers: {
+      bed: 4,
+      shower: 2,
+      occupants: 8
+    },
+    category: [
+      "Mountain view",
+      "Shared beach access",
+      "Chef",
+      "Butler",
+      "Cleaning available during stay",
+      "Bartender",
+      "Pool - infinity",
+      "Hot tub",
+      "Kitchen",
+      "Wifi"
+    ],
+    discount: null,
+    description: "Feel like exploring the Dominican? Start the day with a hike on one of Playa Morón's many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddleboarding. When you'Feel like exploring the Dominican? Start the day with a hike on one of Playa Morón's many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddleboarding. When you're ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views.",
+    amenities: [
+      "BEDROOM & BATHROOM",
+      "• Bedroom 1 - Primary: King size bed, Ensuite bathroom with stand-alone rain shower, Dual vanity, Walk-in closet, Television, Sofa, Deck, Balcony, Ocean view"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    ]
+  },
+  {
+    id: 2,
+    name: "Luxury Ocean Villa",
+    image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    rating: 4.9,
+    reviewCount: 234,
+    address: {
+      city: "Malibu",
+      country: "California"
+    },
+    price: 3200,
+    offers: {
+      bed: 5,
+      shower: 3,
+      occupants: 10
+    },
+    category: [
+      "Ocean view",
+      "Private beach",
+      "Pool",
+      "Hot tub",
+      "Kitchen",
+      "Wifi",
+      "Gym",
+      "Spa"
+    ],
+    discount: 15,
+    description: "Experience luxury at its finest in this stunning oceanfront villa. Wake up to breathtaking ocean views and enjoy private beach access.",
+    amenities: [
+      "LUXURY AMENITIES",
+      "• Master Suite with ocean views",
+      "• Private infinity pool",
+      "• Direct beach access"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+    ]
+  }
+];
+
+// Sample reviews data
+export const SAMPLE_REVIEWS = [
+  {
+    id: 1,
+    name: "Kerry",
+    avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+    rating: "★★★★★",
+    comment: "I simply don't have the words to describe how incredibly beautiful the villa and its surroundings are. This is a wonderful remote spot that is simply breathtaking.",
+    date: "March 2024",
+    yearsOnPlatform: "2 years on ALX",
+    tripType: "Family trip"
+  },
+  {
+    id: 2,
+    name: "Pooja",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+    rating: "★★★★★",
+    comment: "We stayed at this home for a family vacation of 7 adults (including 3 couples, 1 baby) and had a fantastic stay. The house was BEAUTIFUL and honestly better than shown in pictures.",
+    date: "March 2024",
+    yearsOnPlatform: "1 years on ALX",
+    tripType: "Family trip"
+  },
+  {
+    id: 3,
+    name: "Cindy & Ben",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+    rating: "★★★★★",
+    comment: "I simply don't have the words to describe how incredibly beautiful the villa and its surroundings are. This is a wonderful remote spot that is simply breathtaking.",
+    date: "August 2023",
+    yearsOnPlatform: "1 years on ALX",
+    tripType: "Family trip"
+  },
+  {
+    id: 4,
+    name: "Marnie",
+    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+    rating: "★★★★★",
+    comment: "We stayed at this home for a family vacation of 7 adults (including 3 couples, 1 baby) and had a fantastic stay. The house was BEAUTIFUL and honestly better than shown in pictures.",
+    date: "January 2023",
+    yearsOnPlatform: "5 years on ALX",
+    tripType: "Family trip"
+  }
+];
+
 
 
 export const Hero_Image = '/assets/Hero-Image.png';

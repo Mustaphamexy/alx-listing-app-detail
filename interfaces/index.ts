@@ -18,7 +18,7 @@ export interface ButtonProps {
 export interface PropertyProps {
   name: string;
   address: {
-    state: string;
+    state?: string;
     city: string;
     country: string;
   };
@@ -49,4 +49,43 @@ export interface PillProps {
   label: string;
   isActive: boolean;
   onClick: () => void;
+}
+
+export interface PropertyDescProps {
+  id: number;
+  name: string;
+  image: string;
+  rating: number;
+  reviewCount: number;
+  address: {
+    state?: string;
+    city: string;
+    country: string;
+  };
+  price: number;
+  offers: {
+    bed: number;
+    shower: number;
+    occupants: number;
+  };
+  category: string[];
+  discount?: number | null;
+  description: string;
+  amenities: string[];
+  images: string[];
+}
+
+export interface PropertyDetailProps {
+  property: PropertyDescProps;
+}
+
+export interface ReviewProps {
+  id: number;
+  name: string;
+  avatar: string;
+  rating: string;
+  comment: string;
+  date: string;
+  yearsOnPlatform: string;
+  tripType: string;
 }
